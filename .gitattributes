@@ -1,0 +1,28 @@
+# I fine-riga sono CONGELATI a LF, non normalizzati per piattaforma.
+#
+# Tutti i 247 script sono LF oggi, byte per byte identici agli archivi che
+# synsphere.it distribuisce. Se git normalizzasse a CRLF al checkout su
+# Windows, il primo salvataggio di chiunque produrrebbe un diff in cui ogni
+# riga risulta cambiata — e un diff illeggibile non e' un fastidio estetico:
+# e' l'unico strumento che puo' provare che una modifica e' solo quella
+# dichiarata. PowerShell esegue LF senza problemi su 5.1 e su 7.
+*.ps1   text eol=lf
+*.psm1  text eol=lf
+*.psd1  text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+
+# Niente normalizzazione a indovinare sul resto
+*       -text
+
+# I binari restano binari
+*.png   binary
+*.jpg   binary
+*.zip   binary
+*.ttf   binary
+
+# Su GitHub: conta gli .ps1 come linguaggio del progetto, non come dati
+*.ps1   linguist-language=PowerShell

@@ -1,0 +1,69 @@
+name: Uno script non fa quello che dice / A script doesn't do what it says
+description: Il comportamento osservato non corrisponde alla documentazione o all'help dello script.
+labels: ["difetto"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Prima di aprire la issue**: se pensi che il problema possa essere usato
+        per fare danno su un tenant, non scriverlo qui. Leggi
+        [SECURITY.md](../blob/main/SECURITY.md) e scrivi a info@synsphere.com.
+
+        *If you believe the problem could be used to cause harm, do not post it
+        here — see SECURITY.md.*
+
+  - type: input
+    id: script
+    attributes:
+      label: Quale script / Which script
+      description: Percorso completo nel repository.
+      placeholder: microsoft-365/license-management/09-Get-M365UnusedLicenses.ps1
+    validations:
+      required: true
+
+  - type: textarea
+    id: atteso
+    attributes:
+      label: Che cosa ti aspettavi / What you expected
+      description: Che cosa dice l'help o il README, e che cosa pensavi di ottenere.
+    validations:
+      required: true
+
+  - type: textarea
+    id: ottenuto
+    attributes:
+      label: Che cosa è successo / What happened
+      description: |
+        Incolla l'output o il messaggio di errore. **Togli i dati del tuo
+        tenant**: nomi utente, indirizzi email, ID, nomi di dominio.
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: comando
+    attributes:
+      label: Comando eseguito / Command you ran
+      placeholder: .\09-Get-M365UnusedLicenses.ps1 -InactiveDays 60
+    validations:
+      required: true
+
+  - type: dropdown
+    id: powershell
+    attributes:
+      label: Versione di PowerShell
+      options:
+        - Windows PowerShell 5.1
+        - PowerShell 7.x
+        - Altra / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: moduli
+    attributes:
+      label: Moduli installati / Installed modules
+      description: |
+        L'esito di `Get-Module -ListAvailable Microsoft.Graph*, ExchangeOnlineManagement, Az.* | Select Name, Version`.
+        Serve più spesso di quanto sembri: molti problemi sono versioni di modulo.
+      render: text

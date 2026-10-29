@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Problema di sicurezza / Security problem
+    url: https://github.com/SynSphere-Italia/synsphere-powershell-toolkits/blob/main/SECURITY.md
+    about: >-
+      Non aprire una issue pubblica se il problema può essere usato per fare
+      danno su un tenant. Scrivi a info@synsphere.com. / Do not open a public
+      issue for anything that could be used to cause harm — email us.
+  - name: Serve aiuto su un tenant reale / Need help on a real tenant
+    url: https://synsphere.it/contattaci
+    about: >-
+      Questi script sono forniti as-is e li manteniamo quando possiamo. Se hai
+      una scadenza, è un altro tipo di conversazione. / These scripts are
+      as-is. If you have a deadline, let's talk.

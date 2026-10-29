@@ -1,0 +1,37 @@
+{
+  "_commento": "Mappa fra le cartelle di questo repository e gli ZIP serviti da synsphere.it/download. Questo file e' la cerniera fra le due superfici: se aggiungi un toolkit qui, Build-DownloadZips.ps1 genera il suo ZIP; se lo togli, lo ZIP non viene piu' rigenerato. Le voci con zip=null sono script singoli pubblicati come .ps1 nudo, senza ZIP.",
+  "_destinazione": "../SynSphereWebsite/SYNSPHERE - Website/public/download",
+  "toolkit": [
+    { "cartella": "microsoft-365/license-management",         "zip": "m365-license-management-toolkit-synsphere.zip",  "ps1Pubblicato": null },
+    { "cartella": "microsoft-365/user-lifecycle",             "zip": "m365-user-lifecycle-toolkit-synsphere.zip",      "ps1Pubblicato": null },
+    { "cartella": "microsoft-365/exchange-mailbox",           "zip": "m365-exchange-mailbox-toolkit-synsphere.zip",    "ps1Pubblicato": null },
+    { "cartella": "microsoft-365/groups",                     "zip": "m365-groups-toolkit-synsphere.zip",              "ps1Pubblicato": null },
+    { "cartella": "microsoft-365/teams-sharepoint",           "zip": "m365-teams-sharepoint-toolkit-synsphere.zip",    "ps1Pubblicato": null },
+    { "cartella": "microsoft-365/guest-external",             "zip": "m365-guest-external-toolkit-synsphere.zip",      "ps1Pubblicato": null },
+    { "cartella": "microsoft-365/backup-continuity",          "zip": "m365-backup-continuity-toolkit-synsphere.zip",   "ps1Pubblicato": null },
+    { "cartella": "microsoft-365/tenant-to-tenant-preflight", "zip": "t2t-preflight-toolkit-synsphere.zip",            "ps1Pubblicato": null },
+    { "cartella": "microsoft-365/mailbox-delegation",         "zip": "set-mailbox-delegation-synsphere.zip",           "ps1Pubblicato": "set-mailbox-delegation-synsphere.ps1" },
+    { "cartella": "microsoft-365/intune-endpoint",            "zip": "intune-endpoint-toolkit-synsphere.zip",          "ps1Pubblicato": null },
+    { "cartella": "microsoft-365/windows-11-migration",       "zip": "windows-11-migration-toolkit-synsphere.zip",     "ps1Pubblicato": null },
+    { "cartella": "microsoft-365/aruba-imap-migration",       "zip": "migrazione-aruba-microsoft-365-synsphere.zip",   "ps1Pubblicato": "migrazione-aruba-microsoft-365-synsphere.ps1" },
+    { "cartella": "microsoft-365/ai-agents-governance",       "zip": "governance-agenti-ai-toolkit-synsphere.zip",     "ps1Pubblicato": null },
+
+    { "cartella": "azure/compute",                            "zip": "azure-compute-toolkit-synsphere.zip",            "ps1Pubblicato": null },
+    { "cartella": "azure/cost-management",                    "zip": "azure-cost-toolkit-synsphere.zip",               "ps1Pubblicato": null },
+    { "cartella": "azure/governance",                         "zip": "azure-governance-toolkit-synsphere.zip",         "ps1Pubblicato": null },
+    { "cartella": "azure/monitoring",                         "zip": "azure-monitoring-toolkit-synsphere.zip",         "ps1Pubblicato": null },
+    { "cartella": "azure/networking",                         "zip": "azure-networking-toolkit-synsphere.zip",         "ps1Pubblicato": null },
+    { "cartella": "azure/rbac",                               "zip": "azure-rbac-toolkit-synsphere.zip",               "ps1Pubblicato": null },
+    { "cartella": "azure/security",                           "zip": "azure-security-toolkit-synsphere.zip",           "ps1Pubblicato": null },
+    { "cartella": "azure/storage-database",                   "zip": "azure-storage-db-toolkit-synsphere.zip",         "ps1Pubblicato": null },
+
+    { "cartella": "security/defender",                        "zip": "defender-security-toolkit-synsphere.zip",        "ps1Pubblicato": null },
+    { "cartella": "security/purview-compliance",              "zip": "purview-compliance-toolkit-synsphere.zip",       "ps1Pubblicato": null },
+    { "cartella": "security/email-security",                  "zip": "m365-email-security-toolkit-synsphere.zip",      "ps1Pubblicato": null },
+    { "cartella": "security/incident-response",               "zip": "m365-incident-response-toolkit-synsphere.zip",   "ps1Pubblicato": null },
+    { "cartella": "security/entra-identity-governance",       "zip": "entra-identity-governance-toolkit-synsphere.zip","ps1Pubblicato": null },
+    { "cartella": "security/acn-cyber-taxonomy",              "zip": null,                                             "ps1Pubblicato": "get-acn-cyber-taxonomy-synsphere.ps1" },
+    { "cartella": "security/entra-credentials-expiry",        "zip": null,                                             "ps1Pubblicato": "get-entra-app-credentials-expiry-synsphere.ps1" },
+    { "cartella": "security/mailbox-retention-exposure",      "zip": null,                                             "ps1Pubblicato": "get-mailbox-retention-exposure-synsphere.ps1" }
+  ]
+}

@@ -1,0 +1,32 @@
+# ── output degli script ───────────────────────────────────────────────────
+# Gli script esportano CSV/JSON/HTML nella cartella corrente: non devono
+# finire nel repository, possono contenere dati di tenant reali.
+*.csv
+*.json
+*.html
+*.xlsx
+*.log
+!.github/**/*.json
+!tools/*.json
+
+# ── artefatti di rilascio ─────────────────────────────────────────────────
+dist/
+*.zip
+
+# ── trascrizioni e credenziali ────────────────────────────────────────────
+# PowerShell Start-Transcript, token, profili salvati
+transcript*.txt
+*.cred
+*.clixml
+.env
+.env.*
+!.env.example
+
+# ── sistema operativo / editor ────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~

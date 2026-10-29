@@ -1,0 +1,49 @@
+name: Permesso più ampio del necessario / Permission wider than needed
+description: Uno script chiede uno scope Graph o un ruolo Azure che non gli serve.
+labels: ["permessi"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questa segnalazione ci interessa molto. Ogni `Connect-MgGraph -Scopes`
+        lascia un consenso **permanente e a livello di tenant** sull'applicazione
+        *Microsoft Graph Command Line Tools*: uno scope di troppo non è un
+        dettaglio di stile, è un permesso che resta.
+
+        *Every `Connect-MgGraph -Scopes` leaves a permanent, tenant-wide consent.
+        An unnecessary scope is a permission that stays.*
+
+  - type: input
+    id: script
+    attributes:
+      label: Quale script / Which script
+      placeholder: microsoft-365/intune-endpoint/01-Get-IntuneDevices.ps1
+    validations:
+      required: true
+
+  - type: input
+    id: chiesto
+    attributes:
+      label: Permesso chiesto / Permission requested
+      placeholder: DeviceManagementManagedDevices.PrivilegedOperations.All
+    validations:
+      required: true
+
+  - type: input
+    id: sufficiente
+    attributes:
+      label: Permesso sufficiente / Permission that would suffice
+      placeholder: DeviceManagementManagedDevices.Read.All
+    validations:
+      required: true
+
+  - type: textarea
+    id: prova
+    attributes:
+      label: Come lo hai verificato / How you verified it
+      description: |
+        Hai provato lo script con lo scope ridotto e ha funzionato? Hai
+        confrontato i cmdlet usati con la tabella dei permessi di Microsoft
+        Graph? Dillo: una verifica fatta vale più di una deduzione.
+    validations:
+      required: true

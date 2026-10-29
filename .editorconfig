@@ -1,0 +1,30 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{md,yml,yaml,json}]
+indent_size = 2
+trim_trailing_whitespace = false
+
+[*.ps1]
+# LF, non CRLF: tutti e 247 gli script sono LF oggi, e imporre CRLF li
+# riscriverebbe TUTTI al primo salvataggio, rendendo illeggibile ogni diff
+# successivo (ogni riga risulta cambiata). La regola qui fotografa com'e'
+# il repository, non come "si usa" su Windows. PowerShell esegue LF senza
+# alcun problema.
+indent_size = 4
+end_of_line = lf
+
+# charset: gli script vanno salvati UTF-8 CON BOM. Non e' una preferenza:
+# Windows PowerShell 5.1 legge un file senza BOM con la code page ANSI, e i
+# 120 script che contengono accenti italiani stampano mojibake
+# ("perche'" diventa "perchÃ©"). Provato su 5.1.26100 contro PowerShell 7.5.
+# EditorConfig non ha un valore "utf-8-bom" universale, percio' la regola
+# vera e' nel controllo di CI: tools/Test-Codifica.ps1.
+charset = utf-8-bom

@@ -1,0 +1,90 @@
+name: Analisi PowerShell
+
+# Ogni push e ogni pull request passano da PSScriptAnalyzer e da un controllo
+# di parsing. Serve a due cose: che nessuno (noi compresi) introduca uno script
+# che non si apre nemmeno, e che un contributo esterno sia misurato da una
+# regola pubblica invece che dal nostro giudizio.
+
+on:
+  push:
+    branches: [main]
+    paths: ['**.ps1', '.github/workflows/analisi-powershell.yml']
+  pull_request:
+    paths: ['**.ps1']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  analisi:
+    name: PSScriptAnalyzer
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Installa PSScriptAnalyzer
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module PSScriptAnalyzer -Scope CurrentUser -Force
+
+      - name: Ogni script deve almeno essere analizzabile
+        shell: pwsh
+        run: |
+          $errori = @()
+          $file = Get-ChildItem -Recurse -Filter *.ps1
+          Write-Host "Script da verificare: $($file.Count)"
+          foreach ($f in $file) {
+            $tokens = $null; $err = $null
+            [System.Management.Automation.Language.Parser]::ParseFile(
+              $f.FullName, [ref]$tokens, [ref]$err) | Out-Null
+            if ($err) {
+              $errori += "$($f.FullName): $($err.Count) errori di sintassi"
+              $err | ForEach-Object { Write-Host "   $($_.Message)" }
+            }
+          }
+          if ($errori) { $errori | ForEach-Object { Write-Error $_ }; exit 1 }
+          Write-Host "Parsing: $($file.Count)/$($file.Count) senza errori"
+
+      - name: PSScriptAnalyzer (Error e Warning)
+        shell: pwsh
+        run: |
+          $r = Invoke-ScriptAnalyzer -Path . -Recurse -Severity Error,Warning `
+                 -ExcludeRule PSAvoidUsingWriteHost,PSUseShouldProcessForStateChangingFunctions
+          # PSAvoidUsingWriteHost: questi script sono interattivi, l'output a
+          # schermo colorato e' una scelta, non una svista.
+          if ($r) {
+            $r | Format-Table RuleName, Severity, ScriptName, Line, Message -AutoSize | Out-String -Width 200
+            $gravi = @($r | Where-Object Severity -eq 'Error')
+            Write-Host "Rilievi: $($r.Count) (di cui Error: $($gravi.Count))"
+            if ($gravi) { exit 1 }
+          } else {
+            Write-Host "PSScriptAnalyzer: nessun rilievo"
+          }
+
+      - name: Codifica (UTF-8 con BOM, fine-riga LF)
+        shell: pwsh
+        run: ./tools/Test-Codifica.ps1
+
+      - name: Nessun segreto in chiaro
+        shell: pwsh
+        run: |
+          # Rete di sicurezza grossolana ma utile: questi script NON devono mai
+          # contenere una password o un token letterale.
+          $pattern = @(
+            'ConvertTo-SecureString\s+.*-AsPlainText\s+.*["''][^"'']{6,}'
+            '(password|pwd|secret|apikey|api_key|token)\s*=\s*["''][^"''$]{8,}'
+            'Bearer\s+[A-Za-z0-9\-_\.]{30,}'
+          )
+          $trovati = @()
+          foreach ($f in (Get-ChildItem -Recurse -Filter *.ps1)) {
+            $t = Get-Content $f.FullName -Raw
+            foreach ($p in $pattern) {
+              foreach ($m in [regex]::Matches($t, $p, 'IgnoreCase')) {
+                $trovati += "$($f.Name): $($m.Value.Substring(0, [Math]::Min(60, $m.Value.Length)))"
+              }
+            }
+          }
+          if ($trovati) { $trovati | ForEach-Object { Write-Error $_ }; exit 1 }
+          Write-Host "Nessun segreto letterale trovato"
