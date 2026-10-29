@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Resources
+﻿#Requires -Modules Az.Accounts, Az.Resources
 <#
 .SYNOPSIS
     Trova le risorse Azure SENZA tag (o con tag mancanti rispetto a un set richiesto).

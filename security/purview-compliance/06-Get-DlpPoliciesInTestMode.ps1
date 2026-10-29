@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Le policy DLP mai promosse da simulazione a produzione.

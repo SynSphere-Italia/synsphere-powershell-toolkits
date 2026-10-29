@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Report degli ospiti con i gruppi e i team di cui fanno parte.

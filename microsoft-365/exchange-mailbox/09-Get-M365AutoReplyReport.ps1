@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Report risposte automatiche (out-of-office) attive o programmate.

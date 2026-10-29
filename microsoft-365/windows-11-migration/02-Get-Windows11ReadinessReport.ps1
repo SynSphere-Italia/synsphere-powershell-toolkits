@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Report di idoneità a Windows 11 per un elenco di PC (intera flotta).
 .DESCRIPTION

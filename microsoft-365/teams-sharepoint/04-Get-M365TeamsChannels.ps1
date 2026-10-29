@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication, Microsoft.Graph.Teams
+﻿#Requires -Modules Microsoft.Graph.Authentication, Microsoft.Graph.Teams
 <#
 .SYNOPSIS
     Report dei canali di ogni Team (standard, privati, condivisi).

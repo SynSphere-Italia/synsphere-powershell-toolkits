@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Network
+﻿#Requires -Modules Az.Accounts, Az.Network
 <#
 .SYNOPSIS
     Subnet SENZA un NSG associato (gap di sicurezza di rete).

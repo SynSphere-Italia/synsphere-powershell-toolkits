@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Report piani/sottoscrizioni Microsoft 365 con unità e stato.

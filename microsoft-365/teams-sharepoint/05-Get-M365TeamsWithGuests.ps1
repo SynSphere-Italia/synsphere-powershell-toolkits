@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Trova i Teams che contengono ospiti (guest) esterni.

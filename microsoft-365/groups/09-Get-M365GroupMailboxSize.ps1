@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Report dimensione della casella dei gruppi Microsoft 365.

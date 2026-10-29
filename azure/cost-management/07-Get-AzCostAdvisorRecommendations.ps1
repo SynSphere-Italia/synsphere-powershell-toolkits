@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Advisor
+﻿#Requires -Modules Az.Accounts, Az.Advisor
 <#
 .SYNOPSIS
     Raccomandazioni di risparmio di Azure Advisor (categoria Cost).

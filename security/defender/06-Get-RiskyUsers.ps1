@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Utenti a rischio rilevati da Microsoft Entra ID Protection.

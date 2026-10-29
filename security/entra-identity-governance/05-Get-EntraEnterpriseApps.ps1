@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Inventario dei service principal / enterprise app.

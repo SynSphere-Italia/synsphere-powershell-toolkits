@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Elenca tutte le caselle a cui un determinato utente ha accesso (Full Access / Send As).

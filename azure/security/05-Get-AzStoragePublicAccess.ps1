@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Storage
+﻿#Requires -Modules Az.Accounts, Az.Storage
 <#
 .SYNOPSIS
     Storage account a rischio: accesso pubblico ai blob, HTTPS non forzato, rete aperta.

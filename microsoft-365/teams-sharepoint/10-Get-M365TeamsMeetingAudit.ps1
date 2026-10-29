@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Audit delle riunioni Microsoft Teams: partecipanti per riunione.

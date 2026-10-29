@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Resources
+﻿#Requires -Modules Az.Accounts, Az.Resources
 <#
 .SYNOPSIS
     Tutti i ruoli Azure di un utente specifico (diretti + ereditati dai gruppi).

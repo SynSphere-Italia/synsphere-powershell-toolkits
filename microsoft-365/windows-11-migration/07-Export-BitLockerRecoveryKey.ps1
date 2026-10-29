@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Esporta le chiavi di ripristino BitLocker PRIMA dell'upgrade (rete di sicurezza).
 .DESCRIPTION

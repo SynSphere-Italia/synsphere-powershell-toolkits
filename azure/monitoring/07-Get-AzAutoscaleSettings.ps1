@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Monitor
+﻿#Requires -Modules Az.Accounts, Az.Monitor
 <#
 .SYNOPSIS
     Inventario delle impostazioni di autoscale.

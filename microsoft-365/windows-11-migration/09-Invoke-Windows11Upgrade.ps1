@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Avvia l'upgrade in-place a Windows 11 da supporto/ISO (con controlli preliminari).
 .DESCRIPTION

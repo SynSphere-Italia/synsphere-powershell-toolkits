@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Monitor
+﻿#Requires -Modules Az.Accounts, Az.Monitor
 <#
 .SYNOPSIS
     Inventario degli Activity Log alert (incluse le notifiche di Service Health).

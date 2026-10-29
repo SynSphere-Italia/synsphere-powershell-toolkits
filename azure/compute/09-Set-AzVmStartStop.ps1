@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute
+﻿#Requires -Modules Az.Accounts, Az.Compute
 <#
 .SYNOPSIS
     Avvia o spegne (deallocate) in blocco le VM di un resource group o per tag.

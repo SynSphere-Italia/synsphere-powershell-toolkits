@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute
+﻿#Requires -Modules Az.Accounts, Az.Compute
 <#
 .SYNOPSIS
     VM non in esecuzione (deallocate/stopped): quali e da quanto.

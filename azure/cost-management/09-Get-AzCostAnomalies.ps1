@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Billing
+﻿#Requires -Modules Az.Accounts, Az.Billing
 <#
 .SYNOPSIS
     Anomalie di costo: servizi cresciuti rispetto allo stesso periodo del mese scorso.

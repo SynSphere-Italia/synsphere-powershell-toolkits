@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute, Az.RecoveryServices
+﻿#Requires -Modules Az.Accounts, Az.Compute, Az.RecoveryServices
 <#
 .SYNOPSIS
     VM NON protette da backup (Azure Backup / Recovery Services).

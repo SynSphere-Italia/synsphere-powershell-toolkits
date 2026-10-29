@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Network
+﻿#Requires -Modules Az.Accounts, Az.Network
 <#
 .SYNOPSIS
     Inventario delle reti virtuali (VNet) e relative subnet.

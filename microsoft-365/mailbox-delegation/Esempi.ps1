@@ -1,4 +1,4 @@
-<#
+﻿<#
     Esempi di invocazione di Set-MailboxDelegation.ps1
     SynSphere Italia — https://synsphere.it
 

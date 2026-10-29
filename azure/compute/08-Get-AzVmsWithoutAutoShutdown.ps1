@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute, Az.Resources
+﻿#Requires -Modules Az.Accounts, Az.Compute, Az.Resources
 <#
 .SYNOPSIS
     VM senza auto-shutdown configurato (potenziale risparmio sul compute).

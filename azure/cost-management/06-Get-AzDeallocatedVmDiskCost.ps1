@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute
+﻿#Requires -Modules Az.Accounts, Az.Compute
 <#
 .SYNOPSIS
     VM deallocate che pagano ancora i dischi: elenco dei dischi associati.

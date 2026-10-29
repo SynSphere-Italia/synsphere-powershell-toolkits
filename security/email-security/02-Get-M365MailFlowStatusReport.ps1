@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Riepilogo sicurezza della posta: spam, malware, phishing, mail buona (per direzione).

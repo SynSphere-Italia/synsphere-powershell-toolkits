@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Monitor, Az.Resources
+﻿#Requires -Modules Az.Accounts, Az.Monitor, Az.Resources
 <#
 .SYNOPSIS
     Report delle diagnostic settings configurate e delle loro destinazioni.

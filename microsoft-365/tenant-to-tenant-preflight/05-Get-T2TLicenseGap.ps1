@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Users, Microsoft.Graph.Identity.DirectoryManagement
+﻿#Requires -Modules Microsoft.Graph.Users, Microsoft.Graph.Identity.DirectoryManagement
 <#
 .SYNOPSIS
     Licenze assegnate per utente, usageLocation e conteggio per SKU.

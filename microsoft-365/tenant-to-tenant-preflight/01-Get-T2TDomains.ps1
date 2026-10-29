@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Identity.DirectoryManagement
+﻿#Requires -Modules Microsoft.Graph.Identity.DirectoryManagement
 <#
 .SYNOPSIS
     Domini custom del tenant con stato di verifica e record DNS attualmente pubblicati.

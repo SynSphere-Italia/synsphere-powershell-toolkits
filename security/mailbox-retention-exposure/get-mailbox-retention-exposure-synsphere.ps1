@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Inventario in sola lettura della conservazione della posta in Microsoft 365:
     blocchi sulle caselle, caselle inattive, criteri di conservazione Purview e

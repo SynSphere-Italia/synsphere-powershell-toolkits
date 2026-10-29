@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.PolicyInsights
+﻿#Requires -Modules Az.Accounts, Az.PolicyInsights
 <#
 .SYNOPSIS
     Stato di conformità ad Azure Policy: risorse non conformi raggruppate per policy.

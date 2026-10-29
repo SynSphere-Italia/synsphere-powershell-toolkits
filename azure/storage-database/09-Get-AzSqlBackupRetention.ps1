@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Sql
+﻿#Requires -Modules Az.Accounts, Az.Sql
 <#
 .SYNOPSIS
     Politiche di retention dei backup SQL (short-term e long-term) per database.

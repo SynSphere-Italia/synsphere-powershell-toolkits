@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Verifica lo spazio libero sul disco di sistema per l'upgrade a Windows 11.
 .DESCRIPTION

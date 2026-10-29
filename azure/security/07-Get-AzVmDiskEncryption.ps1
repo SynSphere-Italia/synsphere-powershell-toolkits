@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute
+﻿#Requires -Modules Az.Accounts, Az.Compute
 <#
 .SYNOPSIS
     VM e stato di cifratura dei dischi (evidenzia le VM NON cifrate).

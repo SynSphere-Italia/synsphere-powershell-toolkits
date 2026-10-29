@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Report deleghe sulle SHARED MAILBOX (Full Access, Send As, Send on Behalf).

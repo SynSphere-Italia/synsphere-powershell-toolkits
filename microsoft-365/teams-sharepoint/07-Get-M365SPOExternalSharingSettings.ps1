@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Online.SharePoint.PowerShell
+﻿#Requires -Modules Microsoft.Online.SharePoint.PowerShell
 <#
 .SYNOPSIS
     Report della capacità di condivisione esterna per ogni sito SharePoint.

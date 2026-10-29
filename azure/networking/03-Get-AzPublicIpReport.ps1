@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Network
+﻿#Requires -Modules Az.Accounts, Az.Network
 <#
 .SYNOPSIS
     Report degli indirizzi IP pubblici (con SKU, allocazione e risorsa associata).

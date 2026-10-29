@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Consumption
+﻿#Requires -Modules Az.Accounts, Az.Consumption
 <#
 .SYNOPSIS
     Stato dei budget Azure: importo, spesa corrente e percentuale di utilizzo.

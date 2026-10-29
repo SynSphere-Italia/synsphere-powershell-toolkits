@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement, Microsoft.Graph.Users, Microsoft.Graph.Identity.DirectoryManagement
+﻿#Requires -Modules ExchangeOnlineManagement, Microsoft.Graph.Users, Microsoft.Graph.Identity.DirectoryManagement
 <#
 .SYNOPSIS
     Cruscotto di sintesi del pre-flight: i numeri che servono a dimensionare la migrazione.

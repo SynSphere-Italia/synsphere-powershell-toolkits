@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     CONTENIMENTO: disabilita gli account e revoca le sessioni attive. Operazione distruttiva.

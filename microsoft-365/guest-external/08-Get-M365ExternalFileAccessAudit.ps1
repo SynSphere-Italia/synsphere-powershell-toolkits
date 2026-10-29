@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Audit degli accessi a file da parte di utenti ESTERNI (guest) in SharePoint/OneDrive.

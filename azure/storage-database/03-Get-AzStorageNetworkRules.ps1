@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Storage
+﻿#Requires -Modules Az.Accounts, Az.Storage
 <#
 .SYNOPSIS
     Regole di rete (firewall) degli storage account.

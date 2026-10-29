@@ -1,4 +1,4 @@
-#Requires -Version 5.1
+﻿#Requires -Version 5.1
 <#
 .SYNOPSIS
     Migrazione email da Aruba a Microsoft 365 (Exchange Online) via migrazione IMAP.

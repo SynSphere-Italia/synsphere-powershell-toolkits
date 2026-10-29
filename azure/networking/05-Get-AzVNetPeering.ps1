@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Network
+﻿#Requires -Modules Az.Accounts, Az.Network
 <#
 .SYNOPSIS
     Report dei peering tra reti virtuali (stato e impostazioni).

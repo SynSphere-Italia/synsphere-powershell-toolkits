@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication, Microsoft.Graph.Users, ExchangeOnlineManagement
+﻿#Requires -Modules Microsoft.Graph.Authentication, Microsoft.Graph.Users, ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Offboarding di un utente Microsoft 365 secondo le best practice (in un solo script).

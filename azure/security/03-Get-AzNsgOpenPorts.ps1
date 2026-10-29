@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Network
+﻿#Requires -Modules Az.Accounts, Az.Network
 <#
 .SYNOPSIS
     Audit NSG: regole inbound che espongono porte a Internet (0.0.0.0/0 o "Internet").

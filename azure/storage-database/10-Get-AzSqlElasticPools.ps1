@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Sql
+﻿#Requires -Modules Az.Accounts, Az.Sql
 <#
 .SYNOPSIS
     Inventario degli elastic pool SQL (capacità e database contenuti).

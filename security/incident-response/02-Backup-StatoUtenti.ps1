@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Fotografa lo stato di TUTTI gli account prima del blocco. E' cio' che rende il blocco reversibile.

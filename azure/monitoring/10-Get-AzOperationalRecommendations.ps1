@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Advisor
+﻿#Requires -Modules Az.Accounts, Az.Advisor
 <#
 .SYNOPSIS
     Raccomandazioni Advisor di eccellenza operativa e alta affidabilità.

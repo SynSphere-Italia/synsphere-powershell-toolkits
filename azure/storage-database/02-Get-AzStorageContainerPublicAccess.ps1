@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Storage
+﻿#Requires -Modules Az.Accounts, Az.Storage
 <#
 .SYNOPSIS
     Container blob con accesso pubblico (Blob/Container): rischio di data leak.

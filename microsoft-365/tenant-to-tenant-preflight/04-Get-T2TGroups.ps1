@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Gruppi: distribution list, gruppi di sicurezza mail-enabled, gruppi Microsoft 365 e dinamici.

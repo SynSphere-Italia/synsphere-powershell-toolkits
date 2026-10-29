@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute
+﻿#Requires -Modules Az.Accounts, Az.Compute
 <#
 .SYNOPSIS
     Modalità di gestione patch per ogni VM (Automatic / Manual) e aggiornamenti automatici.

@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Resources
+﻿#Requires -Modules Az.Accounts, Az.Resources
 <#
 .SYNOPSIS
     Export della matrice RBAC completa: principal × ruolo × scope (con livello di scope).

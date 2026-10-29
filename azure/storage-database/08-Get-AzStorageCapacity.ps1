@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Storage, Az.Monitor
+﻿#Requires -Modules Az.Accounts, Az.Storage, Az.Monitor
 <#
 .SYNOPSIS
     Capacità utilizzata da ogni storage account (metrica UsedCapacity).

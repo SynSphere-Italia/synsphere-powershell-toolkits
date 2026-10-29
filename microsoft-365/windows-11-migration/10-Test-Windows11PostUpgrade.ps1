@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Verifica l'esito dell'upgrade a Windows 11 e lo stato di salute del PC.
 .DESCRIPTION

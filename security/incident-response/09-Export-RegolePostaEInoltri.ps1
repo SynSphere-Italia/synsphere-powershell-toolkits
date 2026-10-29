@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Censisce regole della posta in arrivo e inoltri: la persistenza che sopravvive al blocco.

@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement, Microsoft.Graph.Authentication
+﻿#Requires -Modules ExchangeOnlineManagement, Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Trova le caselle condivise (shared mailbox) che hanno una licenza assegnata.

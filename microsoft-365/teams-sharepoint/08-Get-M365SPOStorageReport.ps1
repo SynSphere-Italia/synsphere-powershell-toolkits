@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Online.SharePoint.PowerShell
+﻿#Requires -Modules Microsoft.Online.SharePoint.PowerShell
 <#
 .SYNOPSIS
     Report di consumo storage dei siti SharePoint, dai più pesanti ai più leggeri.

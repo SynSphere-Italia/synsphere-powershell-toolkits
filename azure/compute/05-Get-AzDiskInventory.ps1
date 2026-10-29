@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute
+﻿#Requires -Modules Az.Accounts, Az.Compute
 <#
 .SYNOPSIS
     Inventario dei dischi gestiti: dimensione, SKU, stato, cifratura, VM associata.

@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Storage
+﻿#Requires -Modules Az.Accounts, Az.Storage
 <#
 .SYNOPSIS
     Storage account SENZA criterio di lifecycle management (spreco di costo).

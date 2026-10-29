@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Resources
+﻿#Requires -Modules Az.Accounts, Az.Resources
 <#
 .SYNOPSIS
     Inventario completo delle risorse Azure (su tutte le subscription o una sola).

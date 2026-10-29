@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.OperationalInsights
+﻿#Requires -Modules Az.Accounts, Az.OperationalInsights
 <#
 .SYNOPSIS
     Inventario dei workspace Log Analytics (SKU, retention, region).

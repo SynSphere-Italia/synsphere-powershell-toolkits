@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Stato dettagliato del TPM (Trusted Platform Module) del PC.
 .DESCRIPTION

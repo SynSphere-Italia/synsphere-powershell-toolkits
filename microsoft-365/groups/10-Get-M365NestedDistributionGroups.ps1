@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Espande la membership delle liste di distribuzione ANNIDATE (gruppi dentro gruppi).

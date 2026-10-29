@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Billing
+﻿#Requires -Modules Az.Accounts, Az.Billing
 <#
 .SYNOPSIS
     Le N risorse più costose del periodo (default mese corrente).

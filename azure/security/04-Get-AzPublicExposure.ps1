@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Network
+﻿#Requires -Modules Az.Accounts, Az.Network
 <#
 .SYNOPSIS
     Mappa dell'esposizione pubblica: indirizzi IP pubblici e risorsa a cui sono associati.

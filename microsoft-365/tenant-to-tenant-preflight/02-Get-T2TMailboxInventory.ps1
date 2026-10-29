@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Inventario delle mailbox con ExchangeGuid, ArchiveGuid, dimensioni e numero elementi.

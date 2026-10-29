@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Groups, Microsoft.Graph.Teams
+﻿#Requires -Modules Microsoft.Graph.Groups, Microsoft.Graph.Teams
 <#
 .SYNOPSIS
     Inventario dei team con canali standard, privati e condivisi, e relativi owner.

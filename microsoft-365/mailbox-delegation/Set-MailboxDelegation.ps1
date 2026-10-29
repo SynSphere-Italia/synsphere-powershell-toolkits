@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Configura (o revoca) la delega di una cassetta Microsoft 365 / Exchange Online
     verso un altro utente — scenario tipico "assistente che gestisce la posta del responsabile".

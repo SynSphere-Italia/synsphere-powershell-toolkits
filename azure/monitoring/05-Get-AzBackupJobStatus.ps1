@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.RecoveryServices
+﻿#Requires -Modules Az.Accounts, Az.RecoveryServices
 <#
 .SYNOPSIS
     Stato dei job di backup recenti (Recovery Services vault).

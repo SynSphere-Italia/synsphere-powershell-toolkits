@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication, Microsoft.Graph.Users
+﻿#Requires -Modules Microsoft.Graph.Authentication, Microsoft.Graph.Users
 <#
 .SYNOPSIS
     Disabilita o elimina gli utenti guest inattivi da oltre N giorni.

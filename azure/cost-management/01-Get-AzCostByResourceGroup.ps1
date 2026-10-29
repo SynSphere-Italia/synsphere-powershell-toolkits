@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Billing
+﻿#Requires -Modules Az.Accounts, Az.Billing
 <#
 .SYNOPSIS
     Costo del periodo per resource group (default: mese corrente).

@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Advisor
+﻿#Requires -Modules Az.Accounts, Az.Advisor
 <#
 .SYNOPSIS
     VM candidate al rightsizing/shutdown (raccomandazioni di Azure Advisor).

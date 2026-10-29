@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.KeyVault
+﻿#Requires -Modules Az.Accounts, Az.KeyVault
 <#
 .SYNOPSIS
     Postura di sicurezza dei Key Vault: soft-delete, purge protection, modello di accesso.

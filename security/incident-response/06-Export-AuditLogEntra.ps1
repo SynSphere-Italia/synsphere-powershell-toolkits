@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Esporta il log di controllo di Entra ID e isola le azioni con cui si costruisce la persistenza.

@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Costruisce un report HTML unico a partire dai CSV prodotti dagli script precedenti.
 .DESCRIPTION

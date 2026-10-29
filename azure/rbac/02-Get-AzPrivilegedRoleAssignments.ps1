@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Resources
+﻿#Requires -Modules Az.Accounts, Az.Resources
 <#
 .SYNOPSIS
     Assegnazioni PRIVILEGIATE (Owner, Contributor, User Access Administrator) a livello subscription.

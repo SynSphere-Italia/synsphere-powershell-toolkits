@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Resources
+﻿#Requires -Modules Az.Accounts, Az.Resources
 <#
 .SYNOPSIS
     Assegnazioni di ruolo a livello di MANAGEMENT GROUP (ereditate da tutte le subscription).

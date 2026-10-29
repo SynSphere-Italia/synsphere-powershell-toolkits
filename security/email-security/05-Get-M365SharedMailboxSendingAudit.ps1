@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Audit degli invii dalle SHARED MAILBOX: chi ha inviato a nome di una casella condivisa.

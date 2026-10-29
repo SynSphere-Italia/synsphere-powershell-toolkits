@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute, Az.Network
+﻿#Requires -Modules Az.Accounts, Az.Compute, Az.Network
 <#
 .SYNOPSIS
     Risorse idle/orfane che generano costo inutile (dischi, IP pubblici).

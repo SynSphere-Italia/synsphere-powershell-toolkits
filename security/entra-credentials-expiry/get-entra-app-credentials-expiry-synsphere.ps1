@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Elenca i client secret e i certificati di tutte le app registration di
     Microsoft Entra ID, ordinati per data di scadenza.

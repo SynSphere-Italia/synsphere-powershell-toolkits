@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute, Az.Network
+﻿#Requires -Modules Az.Accounts, Az.Compute, Az.Network
 <#
 .SYNOPSIS
     Trova le risorse ORFANE: dischi non collegati, IP pubblici/NIC/NSG non associati.

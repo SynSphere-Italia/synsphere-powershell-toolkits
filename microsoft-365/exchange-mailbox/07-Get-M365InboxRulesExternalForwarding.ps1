@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Trova le REGOLE DELLA POSTA IN ARRIVO che inoltrano/redirigono verso domini ESTERNI.

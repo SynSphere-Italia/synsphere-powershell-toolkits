@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Determina, per ogni licenza utente, se è assegnata DIRETTAMENTE o EREDITATA da un gruppo.

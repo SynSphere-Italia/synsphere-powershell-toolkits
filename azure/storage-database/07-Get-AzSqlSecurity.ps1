@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Sql
+﻿#Requires -Modules Az.Accounts, Az.Sql
 <#
 .SYNOPSIS
     Sicurezza dei database SQL: cifratura trasparente (TDE) e auditing.

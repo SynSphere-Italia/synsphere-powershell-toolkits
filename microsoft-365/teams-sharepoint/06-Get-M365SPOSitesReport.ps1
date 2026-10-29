@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Online.SharePoint.PowerShell
+﻿#Requires -Modules Microsoft.Online.SharePoint.PowerShell
 <#
 .SYNOPSIS
     Report di tutti i siti SharePoint Online: proprietario, template, storage, sharing.

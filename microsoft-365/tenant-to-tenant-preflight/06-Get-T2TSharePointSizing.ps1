@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Online.SharePoint.PowerShell
+﻿#Requires -Modules Microsoft.Online.SharePoint.PowerShell
 <#
 .SYNOPSIS
     Dimensionamento di SharePoint e OneDrive: numero siti, spazio occupato, i piu' grandi.

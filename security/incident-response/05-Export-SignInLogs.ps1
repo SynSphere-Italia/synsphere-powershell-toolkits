@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Esporta i log di accesso di Microsoft Entra ID e ne estrae gli indicatori utili al triage.

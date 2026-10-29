@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Billing
+﻿#Requires -Modules Az.Accounts, Az.Billing
 <#
 .SYNOPSIS
     Forecast della spesa di fine mese (proiezione lineare dal month-to-date).

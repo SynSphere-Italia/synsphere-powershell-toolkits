@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Inventario dei PC Windows 10 con edizione, versione/build e stato.
 .DESCRIPTION

@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Security
+﻿#Requires -Modules Az.Accounts, Az.Security
 <#
 .SYNOPSIS
     Raccomandazioni di sicurezza non risolte (assessment "unhealthy") di Defender for Cloud.

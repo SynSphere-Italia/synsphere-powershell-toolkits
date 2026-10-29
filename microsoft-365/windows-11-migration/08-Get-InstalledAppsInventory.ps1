@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Inventario delle applicazioni installate (snapshot pre-upgrade).
 .DESCRIPTION

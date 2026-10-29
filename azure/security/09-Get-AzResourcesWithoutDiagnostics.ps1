@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Monitor, Az.Resources
+﻿#Requires -Modules Az.Accounts, Az.Monitor, Az.Resources
 <#
 .SYNOPSIS
     Risorse SENZA impostazioni di diagnostica (gap di logging).

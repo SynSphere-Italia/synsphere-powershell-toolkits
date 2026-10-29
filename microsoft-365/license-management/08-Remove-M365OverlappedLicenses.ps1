@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication, Microsoft.Graph.Users.Actions
+﻿#Requires -Modules Microsoft.Graph.Authentication, Microsoft.Graph.Users.Actions
 <#
 .SYNOPSIS
     Trova (e opzionalmente rimuove) le licenze DIRETTE sovrapposte a una group-based.

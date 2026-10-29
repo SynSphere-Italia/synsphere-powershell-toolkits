@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement, Microsoft.Graph.Authentication
+﻿#Requires -Modules ExchangeOnlineManagement, Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Cruscotto sintetico della continuità e recuperabilità di Microsoft 365.

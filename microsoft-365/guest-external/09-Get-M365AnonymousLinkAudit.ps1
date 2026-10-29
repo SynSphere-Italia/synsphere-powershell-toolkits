@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Audit dei link di condivisione ANONIMI ("chiunque abbia il link") in SharePoint/OneDrive.

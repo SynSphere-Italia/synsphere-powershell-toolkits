@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Dns
+﻿#Requires -Modules Az.Accounts, Az.Dns
 <#
 .SYNOPSIS
     Export delle zone DNS pubbliche e dei relativi record.

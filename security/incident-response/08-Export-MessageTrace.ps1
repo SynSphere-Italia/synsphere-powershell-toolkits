@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Esporta il tracciamento dei messaggi con Get-MessageTraceV2, spezzando la finestra come impone il cmdlet.

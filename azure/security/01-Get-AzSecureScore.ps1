@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Security
+﻿#Requires -Modules Az.Accounts, Az.Security
 <#
 .SYNOPSIS
     Secure Score di Microsoft Defender for Cloud (punteggio di sicurezza complessivo).

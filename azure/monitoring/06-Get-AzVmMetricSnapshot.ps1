@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Compute, Az.Monitor
+﻿#Requires -Modules Az.Accounts, Az.Compute, Az.Monitor
 <#
 .SYNOPSIS
     Snapshot delle metriche CPU delle VM (media e picco su N giorni).

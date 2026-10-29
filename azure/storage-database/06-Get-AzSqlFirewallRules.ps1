@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Sql
+﻿#Requires -Modules Az.Accounts, Az.Sql
 <#
 .SYNOPSIS
     Regole firewall dei SQL Server logici (evidenzia le regole troppo aperte).

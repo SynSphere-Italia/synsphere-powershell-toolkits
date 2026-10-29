@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Esporta il log di controllo unificato (Exchange, SharePoint, Entra, Teams) con la paginazione corretta.

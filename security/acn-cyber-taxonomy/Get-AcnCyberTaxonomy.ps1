@@ -1,4 +1,4 @@
-#Requires -Version 5.1
+﻿#Requires -Version 5.1
 <#
 .SYNOPSIS
     Scarica la Tassonomia Cyber dell'ACN dalla fonte ufficiale e la rende consultabile,

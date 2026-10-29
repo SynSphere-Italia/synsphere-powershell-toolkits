@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.KeyVault
+﻿#Requires -Modules Az.Accounts, Az.KeyVault
 <#
 .SYNOPSIS
     Segreti e certificati nei Key Vault in scadenza entro N giorni.

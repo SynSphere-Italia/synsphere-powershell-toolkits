@@ -1,4 +1,4 @@
-#Requires -Modules ExchangeOnlineManagement
+﻿#Requires -Modules ExchangeOnlineManagement
 <#
 .SYNOPSIS
     Impostazioni di recuperabilità delle cassette (finestra elementi eliminati + single-item recovery).

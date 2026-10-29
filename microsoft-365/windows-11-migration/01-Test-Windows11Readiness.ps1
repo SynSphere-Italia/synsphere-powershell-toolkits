@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Verifica se il PC locale soddisfa i requisiti hardware minimi di Windows 11.
 .DESCRIPTION

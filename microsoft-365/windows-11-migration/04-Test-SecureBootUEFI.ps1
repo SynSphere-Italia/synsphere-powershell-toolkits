@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Verifica Secure Boot, modalità firmware (UEFI/BIOS) e stile partizione disco.
 .DESCRIPTION

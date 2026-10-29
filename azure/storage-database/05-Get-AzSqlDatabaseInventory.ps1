@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Sql
+﻿#Requires -Modules Az.Accounts, Az.Sql
 <#
 .SYNOPSIS
     Inventario dei database SQL di Azure (edizione, tier di servizio, dimensione).

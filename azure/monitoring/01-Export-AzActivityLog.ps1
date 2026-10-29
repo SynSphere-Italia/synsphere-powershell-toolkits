@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Monitor
+﻿#Requires -Modules Az.Accounts, Az.Monitor
 <#
 .SYNOPSIS
     Export dell'Activity Log: chi ha fatto cosa e quando sulla subscription.

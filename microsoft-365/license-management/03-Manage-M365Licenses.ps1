@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication, Microsoft.Graph.Users.Actions
+﻿#Requires -Modules Microsoft.Graph.Authentication, Microsoft.Graph.Users.Actions
 <#
 .SYNOPSIS
     Gestione licenze Microsoft 365: report, assegna, rimuovi (anche in massa da CSV).

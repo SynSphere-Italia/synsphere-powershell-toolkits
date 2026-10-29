@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Authentication
+﻿#Requires -Modules Microsoft.Graph.Authentication
 <#
 .SYNOPSIS
     Go / no-go prima di un contenimento: cosa si riesce davvero a raccogliere su questo tenant.

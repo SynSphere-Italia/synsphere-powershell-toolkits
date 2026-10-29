@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.ResourceGraph
+﻿#Requires -Modules Az.Accounts, Az.ResourceGraph
 <#
 .SYNOPSIS
     Export completo delle risorse via Azure Resource Graph (veloce e cross-subscription).

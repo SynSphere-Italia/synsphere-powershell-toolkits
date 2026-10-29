@@ -1,4 +1,4 @@
-#Requires -Modules Microsoft.Graph.Users, Microsoft.Graph.Groups
+﻿#Requires -Modules Microsoft.Graph.Users, Microsoft.Graph.Groups
 <#
 .SYNOPSIS
     Oggetti Entra ID: utenti cloud-only contro sincronizzati da on-premises, guest e gruppi.

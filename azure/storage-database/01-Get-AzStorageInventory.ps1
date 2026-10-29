@@ -1,4 +1,4 @@
-#Requires -Modules Az.Accounts, Az.Storage
+﻿#Requires -Modules Az.Accounts, Az.Storage
 <#
 .SYNOPSIS
     Inventario degli storage account (SKU/replica, tipo, access tier, sicurezza base).
